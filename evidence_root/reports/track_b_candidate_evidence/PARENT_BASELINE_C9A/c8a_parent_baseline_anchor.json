@@ -1,0 +1,47 @@
+{
+  "broker_api_calls_allowed": false,
+  "candidate": "QROS_TRACK_B_C9A_PARENT_BASELINE",
+  "control_authority": false,
+  "default_decision": "NO_TRADE",
+  "fail_closed": true,
+  "future_development_branch": "C9A_OR_LATER",
+  "generated_at_utc": "2026-07-31T06:49:03.385005+00:00",
+  "live_orders_allowed": false,
+  "observation_can_authorize_trade": false,
+  "parent_attestation_sha256": "d539080fd027f9ed07e2d91f6ca773c7389b3b7531af868054b9acda99adbf03",
+  "parent_c7a_correction_sha256": "c54378e0854b1c3133f3695ac459cdf5873e5102ad4d57f0d39b5e9a117d3d3c",
+  "parent_candidate": "QROS_TRACK_B_FINAL_CANDIDATE_C8A",
+  "parent_chain_head_sha256": "d945b2d9f5972be05aee0b9e66cc4f90312552e0e9d27468398ecd94066d4ad1",
+  "parent_checkpoint_test_count": 160,
+  "parent_evidence": {
+    "acceptance_metadata": {
+      "path": "reports/track_b_candidate_evidence/FINAL_CANDIDATE_C8A/c8a_acceptance_metadata.json",
+      "sha256": "a9ae1a82629762464a5581b1eedda57bad40185a93cb9a4219c3150adb361c12"
+    },
+    "acceptance_seal": {
+      "path": "reports/track_b_candidate_evidence/FINAL_CANDIDATE_C8A/c8a_acceptance_seal.sha256",
+      "sha256": "8851950a37295d200420abb9b6dab8cc2a6f92fef3edfa7d399f11a612b9e22a"
+    },
+    "accepted_sources_manifest": {
+      "path": "reports/track_b_candidate_evidence/FINAL_CANDIDATE_C8A/c8a_accepted_sources.sha256",
+      "sha256": "942070cdba556dc910b43f30be65529c2c5b90a69be752fab5074227e2711c90"
+    },
+    "release_attestation": {
+      "path": "reports/track_b_candidate_evidence/FINAL_CANDIDATE_C8A/track_b_final_candidate_attestation.json",
+      "sha256": "d539080fd027f9ed07e2d91f6ca773c7389b3b7531af868054b9acda99adbf03"
+    },
+    "release_attestation_manifest": {
+      "path": "reports/track_b_candidate_evidence/FINAL_CANDIDATE_C8A/track_b_final_candidate_attestation.sha256",
+      "sha256": "dd34309fa4fd312f82c61a89ed4779c42caa316c1b64aa307fb8841d8acf310d"
+    }
+  },
+  "parent_files_modifiable": false,
+  "parent_frozen_manifest_sha256": "69f07530f1342c62a6ecd03fd193245cdae794adbc674a8d6fd94985a37d627a",
+  "parent_manifest_stage_count": 8,
+  "parent_promotion_boundary": "SHADOW_ONLY_NO_TRADE",
+  "parent_release_id": "5098bde8654f6c83532cced2d11e76dd1da5707123d0ba1aebb005dc2ac3bfff",
+  "parent_status": "ACCEPTED_AND_FROZEN",
+  "schema_version": 1,
+  "status": "PARENT_BASELINE_FROZEN",
+  "v11_process_control_allowed": false
+}
